@@ -27,7 +27,7 @@ html {
 .banner {
   position: relative;
   overflow: hidden;
-  max-height: 450px;
+  max-height: 465px;
 }
 
 .banner-content {
@@ -36,4 +36,12 @@ html {
   color: white;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    max-height: 500px;
+  }
+
 }
